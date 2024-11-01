@@ -1,0 +1,17 @@
+[package]
+name = "bongocat-rust"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15.3"
+image = "0.25.4"
+indexmap = "2.6.0"
+rdev = "0.5.3"
+sfml = "0.24.0"
+tokio = { version = "1.41.0", features = ["full"]}
+
+[build-dependencies]
+copy_to_output = "2.2.0"
+glob = "0.3.1"
+winres = "0.1.12"
